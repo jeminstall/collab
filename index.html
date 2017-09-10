@@ -11,7 +11,7 @@
         <h1>Deck: {{name}}</h1>
         <div class="container-fluid">
             <div class="row" v-for="i in Math.ceil(periods.length/4)">
-                <div class="col-3" v-for="period in periods.slice((i-1)*4, i*4)">
+                <div class="col-lg-3 col-sm-6" v-for="period in periods.slice((i-1)*4, i*4)">
                     <ms-period text="my-test1" v-bind:period="period"></ms-period>
                 </div>
             </div>

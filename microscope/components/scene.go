@@ -11,7 +11,7 @@ import (
 const sceneTemplate = `
 <div class="card">
 	<div class="card-header" role="tab" :id="'sceneHeading-'+_uid">
-		<h4>
+		<h4 class="card-title">
 			<a data-toggle="collapse" :href="'#sceneCollapse'+_uid" aria-expanded="true" :aria-controls="'sceneCollapse'+_uid">
 			{{scene.question}}
 			</a>

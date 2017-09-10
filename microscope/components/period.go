@@ -13,8 +13,8 @@ const periodTemplate = `
 	<div class="card-body">
 		<h4 class="card-title">{{period.title}}</h4>
 		<div id="accordion" role="tablist">
-			<div class="row" v-for="event in period.events">
-			<ms-event v-bind:event="event"></ms-event>
+			<div v-for="event in period.events">
+				<ms-event v-bind:event="event"></ms-event>
 			</div>
 		</div>
 	</div>
