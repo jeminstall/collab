@@ -1,8 +1,8 @@
 package components
 
 import (
-	"collab/common/jsutil"
-	"collab/microscope/models"
+	"github.com/jeminstall/collab/common/jsutil"
+	"github.com/jeminstall/collab/microscope/models"
 
 	"github.com/gopherjs/gopherjs/js"
 	vue "github.com/jeminstall/gopherjs-vue"
@@ -11,7 +11,7 @@ import (
 const eventTemplate = `
 <div class="card">
 	<div class="card-header" role="tab" :id="'eventHeading-'+_uid">
-		<h4>
+		<h4 >
 			<a data-toggle="collapse" :href="'#eventCollapse'+_uid" aria-expanded="true" :aria-controls="'eventCollapse'+_uid">
 			{{event.title}}
 			</a>

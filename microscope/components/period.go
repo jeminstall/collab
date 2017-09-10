@@ -1,8 +1,8 @@
 package components
 
 import (
-	"collab/common/jsutil"
-	"collab/microscope/models"
+	"github.com/jeminstall/collab/common/jsutil"
+	"github.com/jeminstall/collab/microscope/models"
 
 	"github.com/gopherjs/gopherjs/js"
 	"github.com/jeminstall/gopherjs-vue"

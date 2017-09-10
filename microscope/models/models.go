@@ -1,8 +1,9 @@
 package models
 
 import (
-	"collab/common/jsutil"
 	"fmt"
+
+	"github.com/jeminstall/collab/common/jsutil"
 
 	"github.com/gopherjs/gopherjs/js"
 )

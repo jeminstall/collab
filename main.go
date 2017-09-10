@@ -1,8 +1,8 @@
 package main
 
 import (
-	"collab/microscope/components"
-	"collab/microscope/models"
+	"github.com/jeminstall/collab/microscope/components"
+	"github.com/jeminstall/collab/microscope/models"
 
 	"github.com/gopherjs/gopherjs/js"
 	"github.com/jeminstall/gopherjs-vue"
